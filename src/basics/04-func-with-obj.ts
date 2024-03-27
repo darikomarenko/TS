@@ -57,7 +57,7 @@ const admin1: Admin = {
     lastVisited: new Date(),
     role: 'admin'
 }
-function login(user: {login: string, password: string}) {
+export function login(user: {login: string, password: string}) {
     if (user.login.length > 0, user.password.length > 0) {
         console.log(`Hello, ${user.login}`)
     }

@@ -20,7 +20,7 @@ function welcome(person: [string, string] | string): number | string {
     }
 }
 
-type Level = 'junior' | 'middle' | 'senior';
+export type Level = 'junior' | 'middle' | 'senior';
 
 interface Developer {
     login: string,
